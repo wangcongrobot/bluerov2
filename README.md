@@ -2,6 +2,9 @@
 
 Attention! It's in development
 
+**update**
+- fix some bugs to adapt the latest [uuv_simulator(kinetic)](https://github.com/uuvsimulator/uuv_simulator)
+
 This repository contains the robot description and necessary launch files to
 simulate the BlueROV2 (unmanned underwater vehicle) on [Unmanned Underwater Vehicle Simulator (UUV Simulator)](https://github.com/uuvsimulator/uuv_simulator). Additional it's possible run BlueROV2 in SITL using [mavros](http://wiki.ros.org/mavros), joystick interaction and video streaming capture with opencv based on [bluerov_ros_playground](https://github.com/patrickelectric/bluerov_ros_playground) package from BlueRobotics.
 
