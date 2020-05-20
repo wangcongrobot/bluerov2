@@ -27,7 +27,7 @@
     </include> -->
 
     <!-- Add the bluerov2 vehicle to the world simulation (namespace: bluerov2) -->
-    <include file="$(find bluerov2_description)/launch/upload_bluerov2.launch">
+    <include file="$(find bluerov2_description)/launch/upload_bluerov2_hdt.launch">
         <arg name="namespace" value="$(arg namespace)"/>
         <arg name="x" value="$(arg x)"/>
         <arg name="y" value="$(arg y)"/>
@@ -52,4 +52,8 @@
       <arg name="record" value="$(arg record)"/>
       <arg name="bag_filename" value="$(arg bag_filename)"/>
     </include> -->
+
+    <!-- Start the hdt arm controller with its default parameters -->
+    <!-- <include file="$(find hdt_control)/launch/hdt_control.launch"/> -->
+    
 </launch>
